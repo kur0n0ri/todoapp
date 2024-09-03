@@ -33,7 +33,7 @@ String error_message = (String) request.getAttribute("error_message");
 				</tr>
 				<tr>
 					<td>タスク内容</td>
-					<td><textarea name="task_contents"
+					<td><textarea name="task_contents" value="${param.task_contents}"
 							style="width: 90%; height: 80px"></textarea>
 				</tr>
 				<tr>
